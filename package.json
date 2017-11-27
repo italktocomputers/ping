@@ -1,31 +1,27 @@
 {
-  "name": "electron-quick-start",
+  "name": "ping",
   "version": "1.0.0",
-  "description": "A minimal Electron application",
+  "description": "A small app that can ping websites.",
   "main": "app/main.js",
   "scripts": {
     "start": "electron ."
   },
-  "repository": "https://github.com/electron/electron-quick-start",
+  "repository": "https://github.com/italktocomputers/ping",
   "keywords": [
-    "Electron",
-    "quick",
-    "start",
-    "tutorial",
-    "demo"
+    "ping"
   ],
-  "author": "GitHub",
-  "license": "CC0-1.0",
+  "author": "italktocomputers",
+  "license": "MIT",
   "devDependencies": {
-    "electron": "~1.7.8"
-  },
-  "dependencies": {
-    "bootstrap": "^3.3.7",
+    "electron": "~1.7.8",
     "gulp": "^3.9.1",
     "gulp-browserify": "^0.5.1",
     "gulp-concat-css": "^2.3.0",
     "gulp-react": "^3.1.0",
-    "gulp-run": "^1.7.1",
+    "gulp-run": "^1.7.1"
+  },
+  "dependencies": {
+    "bootstrap": "^3.3.7",
     "jquery": "^3.2.1",
     "nedb": "^1.8.0",
     "ping": "^0.2.2",
